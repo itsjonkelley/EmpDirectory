@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import Table from '../components/Table'
 
 class About extends Component {
     state = {
@@ -25,8 +26,9 @@ class About extends Component {
 
                 <h1>This is my about page</h1>
                 {/* <h1>{(this.state.randomUser)} </h1> */}
-                {/* <Jumbotron /> */}
-            
+                <div class="container-fluid">
+                    <Table /> 
+                </div>
             
         </>
         )
