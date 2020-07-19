@@ -21,17 +21,14 @@ class About extends Component {
 
     render() {
         return (
-         <div>
+         <>
+
                 <h1>This is my about page</h1>
                 {/* <h1>{(this.state.randomUser)} </h1> */}
-            <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Employee Directory</h1>
-              <p class="lead">Please use to see all employees. This can be filtered or searched.</p>
-            </div>
-          </div>
+                {/* <Jumbotron /> */}
             
-        </div>
+            
+        </>
         )
     }
 }
