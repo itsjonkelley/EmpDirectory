@@ -1,11 +1,14 @@
 import React from 'react';
+import {BrowserRouter as Router, Route} from "react-router-dom";
+import About from './containers/about';
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello world</h1>
-    </div>
+    <Router>
+      <Route exact path = "/" component={About} />
+      <Route exact path = "/about" component={About} />
+    </Router>
   );
 }
 
